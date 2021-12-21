@@ -1,11 +1,25 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
-export default function App() {
+import Header from './components/Header';
+import Cart from './pages/Cart';
+import Photos from './pages/Photos';
+
+function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Header />
+      <Switch>
+        <Route exact path="/">
+          <Photos />
+        </Route>
+
+        <Route path="/cart">
+          <Cart />
+        </Route>
+      </Switch>
     </div>
   );
 }
+
+export default App;
