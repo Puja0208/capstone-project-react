@@ -1,3 +1,18 @@
-# react-kjhjds
+# Image attributions:
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-kjhjds)
+https://picsum.photos/
+
+https://unsplash.com/
+
+# GitHub repo of images and JSON file
+
+https://github.com/bobziroll/scrimba-react-bootcamp-images
+
+# Icon library
+
+https://remixicon.com/
+
+# Libraries
+
+- React Router - https://reacttraining.com/react-router/web/guides/quick-start
+- PropTypes - https://reactjs.org/docs/
