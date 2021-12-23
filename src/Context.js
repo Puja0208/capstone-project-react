@@ -21,7 +21,7 @@ function ContextProvider({ children }) {
   const removeFromCart = (id) => {
     setCartItems((prevItems) => prevItems.filter((item) => item.id !== id));
   };
-  console.log(cartItems);
+
   const toggleFavorite = (id) => {
     const updatedArr = allPhotos.map((photo) => {
       if (photo.id == id) {
